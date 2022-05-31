@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" type="text/css" href="./style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>    
+     <main class="main">
+          <div class="main__container">
+               <div class="tools"></div>
+               <div class="calculator">
+                    <div class="calculator__container">
+                         <div class="phone__header">
+                              <div class="right__side">
+                                   <p class="time">
+                                   
+                                   </p>
+                                   <i class="fa-solid fa-battery-half"></i>
+                                   <i class="fa-solid fa-signal"></i>
+                                   <i class="fa-solid fa-sim-card"></i>
+                                   <i class="fa-brands fa-telegram"></i>
+                                   <i class="fa-solid fa-envelope"></i>
+                              </div>
+                              <div class="left__side">
+                                   <i class="fa-solid fa-volume-off"></i>
+                              </div>
+                         </div>
+                         <div class="calculator__wrapper">
+                              <div class="output">
+                                   <div data-previous-operand class="previous-operand"></div>
+                                   <div data-current-operand class="current-operand"></div>
+                              </div>
+                              <div class="button__container">
+                                      <button data-all-clear class="span-two">AC</button>
+                                      <button data-delete>DEL</button>
+                                      <button data-operation>÷</button>
+                                      <button data-number>1</button>
+                                      <button data-number>2</button>
+                                      <button data-number>3</button>
+                                      <button data-operation>*</button>
+                                      <button data-number>4</button>
+                                      <button data-number>5</button>
+                                      <button data-number>6</button>
+                                      <button data-operation>+</button>
+                                      <button data-number>7</button>
+                                      <button data-number>8</button>
+                                      <button data-number>9</button>
+                                      <button data-operation>-</button>
+                                      <button data-number>.</button>
+                                      <button data-number>0</button>
+                                      <button data-equals class="span-two">=</button>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </main>
+     <script src="./script.js"></script>
+</body>
+</html>
