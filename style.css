@@ -45,6 +45,7 @@ body {
           flex-direction: row-reverse;
   font-size: 1.5rem;
   border-bottom: .1rem solid black;
+  padding-bottom: 2rem;
 }
 
 .main .main__container .calculator .calculator__container .phone__header .right__side {
@@ -58,6 +59,10 @@ body {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.main .main__container .calculator .calculator__container .phone__header .right__side i {
+  margin: 0 .5rem;
 }
 
 .main .main__container .calculator .calculator__container .phone__header .left__side {

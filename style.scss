@@ -26,11 +26,14 @@ background: linear-gradient(90deg, rgba(180,132,58,1) 0%, rgba(97,253,29,1) 50%,
                          flex-direction: row-reverse;
                          font-size: 1.5rem;
                          border-bottom: .1rem solid black;
+                         padding-bottom: 2rem;
                          .right__side {
                               display: flex;
                               align-items: center;
                               flex-direction: row-reverse;
-
+                              i {
+                                   margin: 0 .5rem;
+                              }
                          }
                          .left__side{
                               display: flex;
